@@ -253,10 +253,54 @@ section{
     background-color: var(--green);
 }
 
+.teachers .swiper-slide{
+    position: relative;
+    width: 40rem;
+    overflow: hidden;
+    margin-bottom: 4rem;
+    padding: 1rem;
+}
 
+.teachers .swiper-slide img{
+    height: 55rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+}
 
+.teachers .swiper-slide h3{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--white);
+}
 
+.teachers .swiper-slide .share{
+    position: absolute;
+    top: 1rem; left: -10rem;
+}
 
+.teachers .swiper-slide:hover .share{
+    left: 2rem;
+}
+
+.teachers .swiper-slide .share a{
+    display: block;
+    margin-top: 1rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background-color: var(--white);
+    color: var(--black);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.teachers .swiper-slide .share a:hover{
+    background-color: var(--green);
+    color: var(--white);
+}
 
 
 
