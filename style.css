@@ -420,20 +420,40 @@ section{
     color: var(--green);
 }
 
+.footer{
+    background-color: var(--light-bg);
+    text-align: center;
+    font-size: 1.6rem;
+}
 
+.footer .share a{
+    margin: 0 .3rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--white);
+    background-color: var(--black);
+}
 
+.footer .share a:hover{
+    background-color: var(--green);
+}
 
+.footer .credit{
+    margin-top: 2.5rem;
+    padding: 1.5rem;
+    padding-top: 2.5rem;
+    border-top: .1rem solid var(--light-white);
+    font-size: 2rem;
+    color: var(--light-white);
+}
 
-
-
-
-
-
-
-
-
-
-
+.footer .credit span{
+    font-size: 1.6rem;
+    color: var(--green);
+}
 
 
 
