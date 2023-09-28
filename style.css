@@ -343,8 +343,82 @@ section{
     color: var(--green);
 }
 
+.contact .row{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.contact .row .image{
+    flex: 1 1 40rem;
+}
+
+.contact .row .image img{
+    width: 100%;
+}
+
+.contact .row form{
+    flex: 1 1 40rem;
+}
+
+.contact .row form .box{
+    width: 100%;   
+     margin-top: 1rem;
+     margin-bottom: 2rem;
+     border-radius: .5rem;
+     background-color: var(--light-bg);
+     font-size: 1.8rem;
+     color: var(--white);
+    padding: 1.4rem;
+    text-transform: none;
+}
 
 
+.contact .row form span{
+    font-size: 1.6rem;
+    color: var(--light-white);
+}
+
+
+.contact .row form .radio{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact .row form .radio label{
+    font-size: 1.6rem;
+    color: var(--light-white);
+    margin-left: .5rem;
+    cursor: pointer;
+}
+
+.contact .row form .radio #female{
+    margin-left: 2rem;
+}
+
+.contact .row form .radio input{
+    appearance: none;
+    height: 2rem;
+    width: 2rem;
+    background-color: var(--light-white);
+    cursor: pointer;
+
+}
+
+.contact .row form .radio input:checked{
+    background-color: var(--green);
+    border-radius: 5rem;
+}
+
+.contact .row form .radio #male:checked ~ label[for="male"]{
+    color: var(--green);
+}
+
+
+.contact .row form .radio #female:checked ~ label[for="female"]{
+    color: var(--green);
+}
 
 
 
