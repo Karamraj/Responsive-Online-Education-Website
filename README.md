@@ -3,7 +3,9 @@
  <br />
     <a href="https://karamraj.github.io/Responsive-Online-Education-Website">View Demo</a>
 </p>
-![image](https://github.com/Karamraj/Responsive-Online-Education-Website/assets/92857243/9df40911-a6de-4c2b-8671-f11a4ad99b7e)
+
+![Screenshot 2023-09-28 173552](https://github.com/Karamraj/Responsive-Online-Education-Website/assets/92857243/492e67b6-6219-43c6-ab17-aa712932d026)
+
 
 ## Built With
 
