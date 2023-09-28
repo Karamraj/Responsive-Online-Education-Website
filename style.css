@@ -226,6 +226,7 @@ section{
     text-align: center;
     padding: 2rem;
     margin-bottom: 4rem;
+    user-select: none;
 }
 
 .courses .swiper-slide img{
@@ -259,6 +260,7 @@ section{
     overflow: hidden;
     margin-bottom: 4rem;
     padding: 1rem;
+    user-select: none;
 }
 
 .teachers .swiper-slide img{
@@ -301,6 +303,48 @@ section{
     background-color: var(--green);
     color: var(--white);
 }
+
+.reviews-slider .slide{
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    user-select: none;
+}
+
+.reviews-slider .slide p{
+    line-height: 2;
+    font-size: 1.6rem;
+    color: var(--light-white);
+}
+
+.reviews-slider .slide .user{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.reviews-slider .slide .user img{
+    height: 7rem;
+    width: 7rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.reviews-slider .slide .user h3{
+    font-size: 2rem;
+    color: var(--white);
+    margin-bottom: .6rem;
+}
+
+.reviews-slider .slide .user .stars i{
+    font-size: 1.5rem;
+    color: var(--green);
+}
+
+
+
 
 
 
